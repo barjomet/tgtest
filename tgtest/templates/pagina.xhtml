@@ -1,0 +1,18 @@
+<html py:extends="master.xhtml" py:strip="True">
+    <head py:block="head" py:strip="True">
+        <title py:block="master_title">Pagina</title>
+    </head>
+
+    <body py:block="body" py:strip="True">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Some pagination cases</h2>
+          <ul>
+            <li><a href="${tg.url('regular')}">Regular Paginas</a></li>
+            <li><a href="${tg.url('massive')}">Massive Paginas</a></li>
+            <li><a href="${tg.url('grouped')}">Grouped Paginas</a></li>
+          </ul>
+        </div>
+      </div>
+    </body>
+</html>
